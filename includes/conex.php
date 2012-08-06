@@ -5,12 +5,12 @@
 		define('DB_HOST', "localhost"); #nombre del host de la base de datos.
 		define('DB_USERNAME', ""); #nombre del usuario para la conexion a la base de datos
 		define('DB_PASSWORD', ""); #clave de conexion para el usuario DB_USERNAME		
-	} else if ($_SERVER['SERVER_NAME'] == "posibl.qa.altodot.com") {
+	} else if ($_SERVER['SERVER_NAME'] == "http://mtvqa.dev.altodot.com/") {
 		//staging externo
-		define('DB_DBUSE', "posibl"); #nombre de la base de datos.	
+		define('DB_DBUSE', "mtvqa"); #nombre de la base de datos.	
 		define('DB_HOST', "localhost"); #nombre del host de la base de datos.
-		define('DB_USERNAME', ""); #nombre del usuario para la conexion a la base de datos
-		define('DB_PASSWORD', ""); #clave de conexion para el usuario DB_USERNAME
+		define('DB_USERNAME', "mtvqa"); #nombre del usuario para la conexion a la base de datos
+		define('DB_PASSWORD', "mtvqa.01"); #clave de conexion para el usuario DB_USERNAME
 	} else {
 		define('DB_DBUSE', "pdu1535_1"); #nombre de la base de datos.
 		define('DB_HOST', "localhost"); #nombre del host de la base de datos.
