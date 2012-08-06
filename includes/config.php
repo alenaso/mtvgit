@@ -8,7 +8,7 @@
 		
 		$URL_SITE = "";
 		
-	} else if ($_SERVER['SERVER_NAME'] == "http://mtvqa.dev.altodot.com/") {
+	} else if ($_SERVER['SERVER_NAME'] == "mtvqa.dev.altodot.com") {
 		// Datos de la apps de Facebook.
 		$application_id = "";
 		$secret = "";
