@@ -62,7 +62,7 @@
     <meta property="fb:app_id" content="<?php echo $application_id; ?>" /> 
     <meta property="og:title" content="MTV || &Uacute;ltimo a&ntilde;o" /> 
     <meta property="og:image" content="<?php echo $URL_SITE."images/facebook-image.jpg"?>" /> 
-    <meta property="og:url" content="<?php echo $URL_SITE."index.php?userid=".$_GET["userid"]."&aid=".$_GET["aid"] ?>" />
+    <meta property="og:url" content="<?php echo $URL_SITE."index.php?userid=".$_GET["userid"]."&aid=".$_GET["aid"]."&mid=".$_GET["mid"]; ?>" />
      <meta property="og:description" content="MTV Último Año." /> 
     <title>MTV || &Uacute;ltimo a&ntilde;o</title>
 </head>
@@ -77,7 +77,7 @@
                 <div class="contentAnuario">
                     <div class="boxSocial">
                         <div class="compartir">
-                        <a href="#" onclick="fbCompartirAnuario(<?php echo $anuario->idAnuario?>);"><img src="images/btn.compartir.png" width="84" height="20" /></a>
+                        <a href="#" onclick="fbCompartirAnuario(<?php echo $anuario->idAnuario?>, '');"><img src="images/btn.compartir.png" width="84" height="20" /></a>
                         </div>
                         <div class="fb-like like" data-send="false" data-layout="button_count" data-width="350" data-show-faces="false" data-href="<?php echo $URL_SITE."/index.php?aid=".$anuario->idAnuario; ?>"></div>
                     </div><!--/boxSocial-->

@@ -6,9 +6,9 @@
     <div class="rel01">
         <div class="amigo right">
            <div class="nombreMapa"><?php echo isset($imagenes[0]) ? $imagenes[0]->nombreAmigo : ""?></div>
-           <div class="amigoImagen"><img src="<?php  echo isset($imagenes[0]) ? $RUTA_IMG_MAPA . $imagenes[0]->ruta : $imgPixel?>" class="imagenWidth" /></div>
+           <p class="amigoImagen"><img src="<?php  echo isset($imagenes[0]) ? $RUTA_IMG_MAPA . $imagenes[0]->ruta : $imgPixel?>" class="imagenWidth" /></p>
         </div>
-        <div class="caracteristica right"><?php echo isset($imagenes[0]) ? $g_categorias_mapa[$imagenes[0]->caracteristicaId] : "" ?></div>
+        <p class="caracteristica right"><?php echo isset($imagenes[0]) ? $g_categorias_mapa[$imagenes[0]->caracteristicaId] : "" ?></p>
     </div> 
     
     <div class="rel02">

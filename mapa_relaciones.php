@@ -71,9 +71,9 @@
         	<div class="contentMapaPerfil">
             	<div class="boxSocialInferior">
                     <div class="compartir">
-                    <img src="images/btn.compartir.png" width="84" height="20" />
+                     <a href="#" onclick="fbCompartirMapa(<?php echo $mapa->idMapaRelacion?>,'<?php echo $userView->nombreCompleto?>');"><img src="images/btn.compartir.png" width="84" height="20" /></a>
                     </div>
-                    <div class="fb-like like clear" data-send="false" data-layout="button_count" data-width="350" data-show-faces="false"></div>
+                   	<div class="fb-like like" data-send="false" data-layout="button_count" data-width="350" data-show-faces="false" data-href="<?php echo $URL_SITE."/index.php?mid=".$mapa->idMapaRelacion; ?>"></div>
                 </div><!--/boxSocial-->
                 <?php if ($userView->idUsuario != $user->idUsuario) { ?>
                 <div class="contentPerfil">

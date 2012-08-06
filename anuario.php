@@ -69,7 +69,7 @@
         	  <div class="contentAnuario">
             	<div class="boxSocialInferior">
                     <div class="compartir">
-                    <a href="#" onclick="fbCompartirAnuario(<?php echo $anuario->idAnuario?>);"><img src="images/btn.compartir.png" width="84" height="20" /></a>
+                    <a href="#" onclick="fbCompartirAnuario(<?php echo $anuario->idAnuario?>,'<?php echo $userView->nombreCompleto?>');"><img src="images/btn.compartir.png" width="84" height="20" /></a>
                     </div>
                     <div class="fb-like like" data-send="false" data-layout="button_count" data-width="350" data-show-faces="false" data-href="<?php echo $URL_SITE."/index.php?aid=".$anuario->idAnuario; ?>"></div>
                 </div><!--/boxSocial-->

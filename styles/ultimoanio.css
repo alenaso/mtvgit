@@ -81,16 +81,19 @@ li:hover a { color:#f05961;}
 li.home  { width:110px; margin:0px; text-decoration:none;}
 li.mapa { height:70px; padding-top:40px; text-decoration:none;}
 
+li.seleccionado {background:url(../images/btnHover.png) center bottom no-repeat; color:#f05961; }
+
 li.imagen { float:left; margin:0 20px; padding-top:0px;} 
 li.imagen:hover{ background:none;} 
 ul#foo2 li { padding:0;}
 ul#foo2 li:hover { background:none;}
 /*NAV RIGHT*/
-.navRight { width:300px; float:left;}
-.bannerNav { width:300px; height:250px; float:left; margin-bottom:30px;}
-.btnRegistrate{ width:221px; height:60px; background: url(../images/btn.registrate.png) no-repeat; float:left; position:relative; margin-left:40px;}
+.navRight { width:300px; float:left; position:relative;}
+.bannerNav { width:300px; height:250px; float:left; margin-bottom:30px; z-index:1; position:absolute; top:0; left:0;}
+.btnRegistrate{ width:221px; height:60px; background: url(../images/btn.registrate.png) no-repeat; float:left; position:relative; margin:280px 0 0 40px;}
 .cerrarSesion { width:155px; height:46px; position:absolute; bottom:0pc; right:0;}
-.contentFreinds { width:255px; height:374px; background:url(../images/friends.bg.png) no-repeat; float:left; position:relative; padding: 16px 0 0 45px;}
+
+.contentFreinds { width:255px; height:374px; background:url(../images/friends.bg.png) no-repeat; float:left; position:relative; padding: 16px 0 0 45px; margin-top:280px;}
 h4.friendsTitle { float:left;}
 .friendsProfile { float:left; margin:10px 0px; clear:left;}
 .friendsProfile img { float:left; width:50px; height:50px; padding:5px; background:url(../images/profile.img.bg.png) no-repeat; margin-right:20px;}
@@ -256,7 +259,7 @@ option {height: 20px; background:#dddddd; border:0}
 .amigoImagen, .secundarioImagen { width:57px; height:57px; overflow:hidden; position:absolute; bottom:0; left:50%; margin-left:-28px; z-index:50px; background:#966;}
 .caracteristica {line-height:25px; font-family: 'JustRealizeBold'; font-size:18px; color:#f05961; margin:15px 0 0 5px;}
 
-.contentSelectFotos { float:left; width:600px; height:147px; margin:10px 0 0 40px;}
+.contentSelectFotos { float:left; width:600px; height:147px; margin:10px 0 0 40px; }
 .selectAmigo { width:82px; height:140px; float:left; margin-left:15px; position:relative;}
 .selectNombre { width:81px; height:27px; position:absolute; bottom:0; left:0; text-align:center; font-family:Arial, Helvetica, sans-serif; color:#FFF; line-height:27px; font-size:10px; background:url(../images/nombre.amigo.bg.png) no-repeat;}
 .selectCaracteristica { width:82px; height:20px; border:0; float:left;background: #dddddd; font-size:11px; line-height:20px;}
@@ -267,7 +270,7 @@ option {height: 20px; background:#dddddd; border:0}
 .contentMapaPersonajes { width:960px; height:430px; float:left; background: url(../images/mapa.personajes.bg.png) top no-repeat; position:relative; }
 .protagonista {width:88px; height:90px; position:relative;}
 .imagenProtagonista { width:75px; height:75px; overflow:hidden; position:absolute; bottom:0; left:7px; z-index:50;}
-.contentMapaPersonajes .btnCreaMapa { top:-25px; height: 53px; position: absolute; right: 3px; width: 184px;}
+.contentMapaPersonajes .btnCreaMapa { top:-25px; height: 53px; position: absolute; right: 3px; width: 184px;z-index:800;}
 .mapasRelaciones { width:961px; height:430px; position:absolute; top:0; left:0; z-index:500; display:none;}
 
 .boxBenjamin {width:88px; height:90px; position:absolute; top:79px; left:362px;}
@@ -316,7 +319,7 @@ option {height: 20px; background:#dddddd; border:0}
 /*MODAL*/
 .black_overlay { background: url(../images/ul.bg.png) ; display: none; position: absolute; left: 0; top:0; width: 100%; height: 200%; z-index: 1001;}
 
-.contentModal {/*display: none;*/  position: fixed; z-index:1002; left: 50%;  top: 50%; margin:-285px 0 0 -340px; width:688px; height: 570px; padding:30px 45px; background: url(../images/modal.bg.png) no-repeat;}
+.contentModal {/*display: none;*/  position: fixed; z-index:2002; left: 50%;  top: 50%; margin:-285px 0 0 -340px; width:688px; height: 570px; padding:30px 45px; background: url(../images/modal.bg.png) no-repeat;}
 .cerrarModal { position:absolute; top:0px; right:0px; width:91px; height:50px; cursor:pointer;}
 .modalBloqueThumbs { width:680px; height: 520px; float:left; overflow:hidden; margin-top:25px;}
 .modalThumb { width:130px; height:130px; margin:18px; float:left; border: solid 1px #666;}

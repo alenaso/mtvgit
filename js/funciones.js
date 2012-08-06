@@ -43,21 +43,35 @@ function fbFeedRegistro(user, redirectUrl){
 }
 
 
-function fbCompartirAnuario(idAnuario) {
+function fbCompartirAnuario(idAnuario, nombre) {
+	var usuario = '';
+	if(nombre==undefined || nombre==''){
+		var usuario = $('#user_name').val();
+	} else {
+		usuario = nombre;
+	}
+	
 	FB.ui({
     	method: 'feed',
 		display : 'iframe',
     	name: 'MTV &Uacute;ltimo A&ntilde;o',
     	link: $('#shareFBLink').val() + "index.php?aid=" + idAnuario,
     	picture: $('#shareFBLink').val() + 'images/facebook-image.jpg',
-    	caption: $('#user_name').val() + " ya cre&oacute; su anuario de &Uacute;ltimo A&ntilde;o. &iexcl;Entra a ver sus fotos!",
+    	caption: usuario + " ya cre&oacute; su anuario de &Uacute;ltimo A&ntilde;o. &iexcl;Entra a ver sus fotos!",
     	description: '&iquest;Quieres crear tu anuario? &iexcl;Haz clic y s&uacute;mate a &Uacute;ltimo A&ntilde;o!'
   	}, function(response) {
 			//alert(response.toSource());
   	});
 }
 
-function fbCompartirMapa(img, extracto) {
+function fbCompartirMapa(idMapa, nombre) {
+	var usuario = '';
+	if(nombre==undefined || nombre==''){
+		var usuario = $('#user_name').val();
+	} else {
+		usuario = nombre;
+	}
+	
 	FB.ui({
     	method: 'feed',
 		display : 'iframe',
@@ -65,7 +79,7 @@ function fbCompartirMapa(img, extracto) {
     	link: $('#shareFBLink').val(),
     	picture: $('#shareFBLink').val() + 'images/facebook-image.jpg',
 		//(Nombre de usuario que etiqueta) etiquetó a (Nombre de usuario etiquetado) en su mapa de relaciones de Último Año. ¡Conéctate con Facebook y súmate tú también!
-    	caption: $('#user_name').val() + " ya cre&oacute; su mapa de relaciones de &Uacute;ltimo A&ntilde;o. &iexcl;Entra a verlo!",
+    	caption: usuario + " ya cre&oacute; su mapa de relaciones de &Uacute;ltimo A&ntilde;o. &iexcl;Entra a verlo!",
     	description: '&iquest;Quieres crear tu mapa? &iexcl;Haz clic y s&uacute;mate a &Uacute;ltimo A&ntilde;o!'
   	}, function(response) {
 			//alert(response.toSource());
