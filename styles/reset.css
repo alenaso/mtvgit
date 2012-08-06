@@ -1,0 +1,73 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+/*h1, h2, h3, h4, h5, h6,*/ p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline
+}
+body {
+    line-height: 1;
+}
+:focus {
+    outline: none;
+}
+ol, ul {
+    list-style: none
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: ""
+}
+blockquote, q {
+    quotes: "" ""
+}
+input, textarea {
+    margin: 0px;
+    padding: 0px;
+}
+hr {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: #000;
+    background-color: #000;
+	height: 1px;
+}
+/*CLEARFIX*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0px;
+	content: " ";
+	clear: both;
+	height: 0px;
+ }
+.clearfix {
+	display: inline-block;
+ }
+* html .clearfix {
+	height: 1%;
+ }
+.clearfix {
+	display: block;
+}
+/*ESTO ELIMINA EN IE6 CUANDO SE REPITEN LAS ULTIMAS 2 O 3 LETRAS DE UNA FRASE*/
+.NOrepeatType{
+	margin-left:-3;
+}

@@ -1,0 +1,330 @@
+/* GENERALES AL SITIO */
+
+body { width:100%; margin:auto; padding:0; background:url(../images/body.jpg) top center no-repeat #99e4c9;}
+#conteiner { position:relative; margin:auto;}
+.contentGeneral { width:100%; margin:0 auto; position:relative}
+.manito { cursor:pointer;}
+img { border:0; outline:none;}
+a { outline:none;}
+img a { outline:none;}
+input { margin:0; padding:0; border:none;}
+label { font-family: 'JustRealizeBold', Arial; font-size:25px; color:#f05961; line-height:30px; margin:0; padding:0; text-align:left;}
+.clear { clear:both;}
+.imagenWidth { width:100%;}
+.left { float:left;}
+.right { float:right;}
+/*FONTS*/
+@font-face {
+    font-family: 'JustRealizeRegular';
+    src: url('../fonts/justrealize-webfont.eot');
+    src: url('../fonts/justrealize-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/justrealize-webfont.woff') format('woff'),
+         url('../fonts/justrealize-webfont.ttf') format('truetype'),
+         url('../fonts/justrealize-webfont.svg#JustRealizeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JustRealizeBold';
+    src: url('../fonts/justrealizebold-webfont.eot');
+    src: url('../fonts/justrealizebold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/justrealizebold-webfont.woff') format('woff'),
+         url('../fonts/justrealizebold-webfont.ttf') format('truetype'),
+         url('../fonts/justrealizebold-webfont.svg#JustRealizeBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotepadRegular';
+    src: url('../fonts/notepad_-webfont.eot');
+    src: url('../fonts/notepad_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notepad_-webfont.woff') format('woff'),
+         url('../fonts/notepad_-webfont.ttf') format('truetype'),
+         url('../fonts/notepad_-webfont.svg#NotepadRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h3 { font-family: 'NotepadRegular', Arial; font-size:30px; color:#f05961; line-height:35px; margin:0; padding:0;}
+h4 { font-family: 'JustRealizeBold', Arial; font-size:25px; color:#f05961; line-height:30px; margin:0; padding:0; text-align:left;}
+h5 { font-family: 'JustRealizeBold', Arial; font-size:20px; color:#17587e; line-height:25px; margin:0; padding:0; text-align:left;}
+h6 {font-family: 'JustRealizeBold', Arial; font-size:18px; color:#000; line-height:25px; margin:0; padding:0; text-align:left;}
+
+p { margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:14px;}
+
+.verde { color:#406664;}
+.rosa { color:#f05961;}
+.azul { color:#17587e;}
+/*HEADER*/
+.contentHeader { width:100%; height:150px; margin: 0 auto; background:url(../images/bg.header.footer.png) repeat;}
+.header{ width:960px; height:150px; margin:auto;}
+.logo { width:200px; height:113px; float:left; background:url(../images/logo.mtv.png) no-repeat; margin-top:22px;}
+.bannerHeader { width:730px; height: 90px; float:right; margin-top:30px}
+
+/*FOOTER*/
+.contentFooter { width:100%; height:75px; float:left; background:url(../images/bg.header.footer.png) repeat; position:relative;}
+.footer { background:url(../images/footer.png) no-repeat; position:absolute; bottom:0; left:50%; margin-left:-480px; width:676px; height:45px; padding-top:30px;}
+/*CONTENIDO*/
+.content { width:960px; margin:auto;}
+.contenido { width:660px; float:left; position:relative;}
+.contenidoGrande { width:960px; float:left; position:relative;}
+
+/*MENU*/
+.menu { width:800px; height:171px; margin:15px auto 0px;}
+ul { width:800px; float:left; margin:0; padding:0;}
+li { height:50px;  float:left; margin:0px 18px 0px; font-family: 'JustRealizeBold', Arial; font-size:30px; text-align:center; color:#406664; padding:50px 0 0 0; }
+
+li a{ color:#406664; text-decoration:none;}
+li:hover {background:url(../images/btnHover.png) center bottom no-repeat; }
+li:hover a { color:#f05961;}
+li.home  { width:110px; margin:0px; text-decoration:none;}
+li.mapa { height:70px; padding-top:40px; text-decoration:none;}
+
+li.imagen { float:left; margin:0 20px; padding-top:0px;} 
+li.imagen:hover{ background:none;} 
+ul#foo2 li { padding:0;}
+ul#foo2 li:hover { background:none;}
+/*NAV RIGHT*/
+.navRight { width:300px; float:left;}
+.bannerNav { width:300px; height:250px; float:left; margin-bottom:30px;}
+.btnRegistrate{ width:221px; height:60px; background: url(../images/btn.registrate.png) no-repeat; float:left; position:relative; margin-left:40px;}
+.cerrarSesion { width:155px; height:46px; position:absolute; bottom:0pc; right:0;}
+.contentFreinds { width:255px; height:374px; background:url(../images/friends.bg.png) no-repeat; float:left; position:relative; padding: 16px 0 0 45px;}
+h4.friendsTitle { float:left;}
+.friendsProfile { float:left; margin:10px 0px; clear:left;}
+.friendsProfile img { float:left; width:50px; height:50px; padding:5px; background:url(../images/profile.img.bg.png) no-repeat; margin-right:20px;}
+.profileNombre { float:left; text-align:center; min-width:135px; background:url(../images/subrayado.nombre.png) center bottom no-repeat; padding-bottom:15px; margin-top:10px;}
+.profileNombre h5 { float:left; text-align:center; }
+.btnsFriends { position:absolute; top:-5px; right:30px; width:107px; height:52px;}
+.btnsFriends img{ float:left;}
+.bloqueThumbs { float:left; width:220px; height:210px; overflow:hidden;}
+.thumbFriend { float:left; width:50px; height:50px; margin: 0 0 10px 10px; background: #CCC;}
+
+/*SOCIAL*/
+.boxSocial { position:absolute; top:-20px; left:0; height:30px;}
+.compartir { float:left; margin:0px 15px 0 0;}
+.like { float:left;  width:40px;s}
+.boxSocialInferior { position:absolute; bottom:47px; left:0; height:30px;}
+.boxSocialInferior .compartir { margin-bottom:10px; width:100px; float:none;}
+.boxSocialConsigna {position:absolute; bottom:0px; right:0; height:30px;} 
+.boxSocialConsigna .like, .contentVotarConcurso .boxSocial .like, .contentGanadores .boxSocial .like { width:40px;}
+
+.contentVotarConcurso .boxSocial { position:absolute; top:222px; left:500px; height:30px;}
+.contentGanadores .boxSocial { position:absolute; top:155px; left:500px; height:30px;}
+
+/*CONSIGNA*/
+.contentConsigna { float:left; width:660px; margin-top:15px; position:relative; height:330px;}
+.consignaTxt { float:left; width:485px;}
+
+.boxTiempo { float:left; width: 130px; height:70px; margin-left:25px; text-align:center;}
+.contentVotar { width:660px; text-align:center; height:220px; float:left;}
+.boxVotar { width:140px; text-align:center; height:180px; float:left; background:url(../images/votar.img.bg.png) bottom no-repeat; position:relative; padding:13px 15px 0 8px;}
+.boxVotar img { float:left;}
+.btnVotar { position:absolute; bottom:-15px; left:7px; width:143px; height:42px; outline:none; }
+
+/*ANUARIO*/
+.contentAnuario { width:660px; height:525px; float:left; background: url(../images/home.anuario.bg.png) top no-repeat; position:relative;}
+.nombreCategoria { position:absolute; top:65px; left:50px; height:60px;}
+.nombreCategoria h4 { line-height:42px;}
+.btnCrear { position:absolute; right:25px; top:385px; background:url(../images/btn.creatuanuario.png) no-repeat; width:183px; height:52px; z-index:200;}
+.btnAgrega { position:absolute; right:25px; top:385px; background:url(../images/btn.agrega.png) no-repeat; width:183px; height:52px; z-index:200;}
+.contentTemplate { float:left; width:660px; height:470px; position:relative; overflow:hidden;}
+
+.template01 { background:url(../images/template.01.bg.png) no-repeat; width:538px; height:342px; position:absolute; top:75px; left:75px; z-index:100;}
+.template01Foto01 { width: 385px; height:289px; position:absolute; top:103px; left:123px; z-index:10;}
+
+.template02 { background:url(../images/template.02.bg.png) no-repeat; width:579px; height:324px; position:absolute; top:53px; left:35px; z-index:100;}
+.template02Foto01 { width: 240px; height:180px; position:absolute; top:143px; left:52px; z-index:10;}
+.template02Foto02 { width: 240px; height:180px; position:absolute; top:120px; left:355px; z-index:10;}
+
+.template03 { background:url(../images/template.03.bg.png) no-repeat; width:579px; height:324px; position:absolute; top:53px; left:35px; z-index:100;}
+.template03Foto01 { width: 240px; height:180px; position:absolute; top:143px; left:52px; z-index:10;}
+.template03Foto02 { width: 160px; height:120px; position:absolute; top:71px; left:410px; z-index:10;}
+.template03Foto03 { width: 160px; height:120px; position:absolute; top:240px; left:394px; z-index:10;}
+
+.template04 { background:url(../images/template.04.bg.png) no-repeat; width:579px; height:346px; position:absolute; top:53px; left:35px; z-index:100;}
+.template04Foto01 { width: 160px; height:120px; position:absolute; top:120px; left:65px; z-index:10;}
+.template04Foto02 { width: 160px; height:120px; position:absolute; top:265px; left:125px; z-index:10;}
+.template04Foto03 { width: 160px; height:120px; position:absolute; top:70px; left:430px; z-index:10;}
+.template04Foto04 { width: 160px; height:120px; position:absolute; top:212px; left:377px; z-index:10;}
+
+.template05 { background:url(../images/template.05.bg.png) no-repeat; width:598px; height:363px; position:absolute; top:35px; left:35px; z-index:100;}
+.template05Foto01 { width: 160px; height:120px; position:absolute; top:120px; left:65px; z-index:10;}
+.template05Foto02 { width: 160px; height:120px; position:absolute; top:265px; left:125px; z-index:10;}
+.template05Foto03 { width: 120px; height:90px; position:absolute; top:55px; left:409px; z-index:10;}
+.template05Foto04 { width: 120px; height:90px; position:absolute; top:170px; left:450px; z-index:10;}
+.template05Foto05 { width: 120px; height:90px; position:absolute; top:280px; left:397px; z-index:10;}
+
+/*CREA TU ANUARIO*/
+.contentCreaAnuario { width:660px; height:525px; float:left; background: url(../images/bg.creatuanuario.png) top no-repeat; position:relative;}
+.hoja01 { width:240px; height:315px; float:left; margin:75px 0px 0 50px;}
+.hoja02 { width:240px; height:320px; float:left; margin:55px 12px 0 53px;}
+.hoja01 p, .hoja02 p { font-weight:bold; margin-bottom:20px; font-size:11px;}
+
+.contentCreaAnuarioCarga { width:606px; height:422px; float:left; background: url(../images/crea.tu.anuario.bg.png) top no-repeat; position:relative; padding:70px 0 0 54px;}
+.selectCategoria { margin-bottom:20px; width:600px; float:left; position:relative;}
+.selectCategoria h4 {font-family: 'JustRealizeBold'; width:300px; float:left; }
+.selectFoto h4{ clear:both; font-family: 'JustRealizeBold';}
+.selectFoto { float:left; width:550px; height:140px; position:relative;}
+.fotoThumb { float:left; width:100px; height:100px; margin:5px 10px 0 0; background:#000; position:relative;}
+.quitar { position:absolute; top:-7px; right:-7px; width:16px; height:17px;}
+/*.btnExaminar { position:absolute; bottom:-6px; left:240px; width:183px; height:51px; z-index:200;}*/
+
+.uploadImagenes { float:left; width:550px; height:50px; position:relative; margin-bottom:10px;}
+.btnExaminar { position:relative; float:left; margin:12px 0 0 243px; width:183px; height:51px; z-index:200; background:url(../images/btn.examinar.png) no-repeat; cursor:pointer;}
+.btnFacebook { position:absolute; bottom:-17px; left:390px; width:183px; height:51px; z-index:100;}
+.etiqueta { float:left; width:550px; height:80px; position:relative; background:url(../images/input.bg.png) bottom left no-repeat; padding-bottom:10px;}
+.etiqueta ul{ width:359px; float:left; margin:0; padding:0;}
+.inputEtiqueta { width:349px; height:61px; float:left; background:none; padding-left:10px; line-height:61px;}
+.inputExaminar { position:absolute; width:183px; height:51px; z-index:50;  bottom:0px; left:-55px; filter: Alpha(Opacity=0); -moz-opacity: 0;  opacity: 0; cursor:pointer;}
+.inputExaminar:hover { cursor:pointer;}
+.btnPublicar {width:183px; height:51px; position:absolute; bottom:0px; left:390px;}
+.selectAmigo .inputEtiqueta { width:80px; height:27px; float:left; background:none;line-height:27px; padding-left:5px; font-size:11px;}
+
+/*AUTOCOMPLETE TIENE SU HOJA DE ESTILOS autocomplete.css*/
+
+.bloquePostear {float:left; height: 26px; width: 346px; margin-top: 8px;}
+
+.check { margin-top:5px;}
+.label_check {font-family: Arial, Helvetica, sans-serif; font-size:12px; text-align: left; color:#17587e;  height:20px;  padding:10px 15px 18px 3px;}
+select { border:none}
+select.styled-select {   background: #dddddd; width: 250px; padding:3px 5px; font-size: 14px; border: 0; height: 25px; z-index:100; line-height:20px; position:absolute; top:-4px; right:25px;}
+
+option {height: 20px; background:#dddddd; border:0}
+
+/* PERFIL*/
+.contentPerfil {height:100px; position:absolute; top:-45px; left:42px; z-index:400;}
+.usuarioFoto { background:url(../images/perfil.foto.bg.png) no-repeat; width:76px; height:75px; padding: 0 9px 10px 0px; float:left; margin-top:10px;}
+.usuarioNombre { height:45px; float:left; background:url(../images/arrow.perfil.png) no-repeat; padding:25px 0 0  25px; width:450px;}
+.btnAnuarioPerfil {width:111px; height:31px; position:absolute; top:66px;; left:86px;}
+.btnMapaPerfil { width:111px; height:31px; position:absolute; top:70px;; left:175px;}
+
+/*CARROUSEL*/
+.list_carousel { width: 660px; }
+.list_carousel ul {	margin: 0; padding: 0;list-style: none; display: block;}
+.list_carousel ul img { margin:0;}
+.list_carousel li {	text-align: center;	width: 660px; height: 425px; padding: 0; margin: 0px; display: block; float: left;}
+.list_carousel li:hover { background:none;}
+
+.clearfix {	float: none; clear: both;}
+.prev {	position:absolute; left:133px; bottom:47px;}
+.next {	position:absolute; right:133px; bottom:47px;}
+
+.contentPager {position:absolute; left:200px; bottom:27px; 	background:url(../images/paginador.bg.png) no-repeat;}
+.pager { width: 257px; margin:8px 0 0px; height: 60px; text-align: center;}
+
+.pager a {	font-family: 'JustRealizeBold'; font-size:18px; line-height:60px; margin: 0px 0 0 12px; color:#17587e; text-decoration: none; float: left; width:39px; height:54px;}
+
+.pager a.selected, .pager a:hover  { text-decoration: none; background:url(../images/paginador.hover.png) no-repeat; width:39px; height:54px;}
+
+/*MAPA PERFIL*/
+.contentMapaPerfil { width:650px; height:425px; float:left; background: url(../images/perfil.usuario.mapa.png) top no-repeat; position:relative; padding:64px 0 0 0px;} 
+.contentMapaPerfil .btnCreaMapa { width:184px; height:53px; position:absolute; right:3px; bottom:90px;}
+
+/*MAPA DE RELACIONES*/
+.contentMapaRelaciones { width:654px; height:620px; float:left; background: url(../images/crea.tu.mapa.bg.png) top no-repeat; position:relative; padding:64px 0 0 0px;}
+.contentMapaRelaciones h4 { margin-left:50px;}
+.contentMapaRelaciones .bloquePostear { margin-left:54px;}
+.contentMapaRelaciones .btnPublicar {bottom:80px; left:444px;}
+.contentMapa { width:646px; height:250px; float:left; margin: 15px 0px 10px; position:relative;}
+
+.nombreMapa { background:url(../images/scotch.nombre.png) no-repeat; width:86px; height:26px; position:absolute; top:0; z-index:100; font-family:Arial, Helvetica, sans-serif; color:#FFF; line-height:26px; text-align:center; font-size:10px; font-weight:bold;}
+.nombreMapaGrande { background:url(../images/scotch.nombre.grande.png) no-repeat; width:auto; height:26px; position:absolute; top:0; z-index:100; font-family:Arial, Helvetica, sans-serif; color:#FFF; line-height:26px; text-align:center; font-size:10px;font-weight:bold; padding:0 5px;}
+.imagenYo { width:75px; height:76px; overflow:hidden; position:absolute; bottom:0; left:7px; background:#600; z-index:50;}
+.boxYo { position:absolute; width:88px; height:90px; left:50%; top:50%; margin:-45px 0 0 -44px; }
+
+.rel01 { background:url(../images/amigo01.arrow.png) right center no-repeat; position:absolute; top:0; left:0; width:208px; height:80px; padding-right:71px;}
+.rel01 p.caracteristica { width: 117px;}
+
+.rel02 { background:url(../images/amigo02.arrow.png) left center no-repeat; position:absolute; top:0; right:0; width:201px; height:80px; padding-left:78px;}
+.rel02 p.caracteristica { width: 110px;}
+
+.rel03 { background:url(../images/amigo03.arrow.png) right center no-repeat; position:absolute; top:82px; left:0; width:170px; height:80px; padding-right:106px;}
+.rel03 p.caracteristica { width: 79px;}
+
+.rel04 { background:url(../images/amigo04.arrow.png) left center no-repeat; position:absolute; top:82px; right:0; width:171px; height:80px; padding-left:108px;}
+.rel04 p.caracteristica { width: 77px;}
+
+.rel05 { background:url(../images/amigo05.arrow.png) right center no-repeat; position:absolute; top:155px; left:0; width:208px; height:80px; padding-right:71px;}
+.rel05 p.caracteristica { width: 117px;}
+
+.rel06 { background:url(../images/amigo06.arrow.png) left center no-repeat; position:absolute; top:155px; right:0; width:201px; height:80px; padding-left:78px;}
+.rel06 p.caracteristica { width: 110px;}
+
+.amigo, .secundario { width:86px; height:75px; position:relative;}
+.amigoImagen, .secundarioImagen { width:57px; height:57px; overflow:hidden; position:absolute; bottom:0; left:50%; margin-left:-28px; z-index:50px; background:#966;}
+.caracteristica {line-height:25px; font-family: 'JustRealizeBold'; font-size:18px; color:#f05961; margin:15px 0 0 5px;}
+
+.contentSelectFotos { float:left; width:600px; height:147px; margin:10px 0 0 40px;}
+.selectAmigo { width:82px; height:140px; float:left; margin-left:15px; position:relative;}
+.selectNombre { width:81px; height:27px; position:absolute; bottom:0; left:0; text-align:center; font-family:Arial, Helvetica, sans-serif; color:#FFF; line-height:27px; font-size:10px; background:url(../images/nombre.amigo.bg.png) no-repeat;}
+.selectCaracteristica { width:82px; height:20px; border:0; float:left;background: #dddddd; font-size:11px; line-height:20px;}
+.fotoAmigo { width:75px; height:75px; float:left; overflow:hidden; background:#000; margin:15px 3px 3px;}
+
+
+/*MAPA PERSONAJE*/
+.contentMapaPersonajes { width:960px; height:430px; float:left; background: url(../images/mapa.personajes.bg.png) top no-repeat; position:relative; }
+.protagonista {width:88px; height:90px; position:relative;}
+.imagenProtagonista { width:75px; height:75px; overflow:hidden; position:absolute; bottom:0; left:7px; z-index:50;}
+.contentMapaPersonajes .btnCreaMapa { top:-25px; height: 53px; position: absolute; right: 3px; width: 184px;}
+.mapasRelaciones { width:961px; height:430px; position:absolute; top:0; left:0; z-index:500; display:none;}
+
+.boxBenjamin {width:88px; height:90px; position:absolute; top:79px; left:362px;}
+.boxBenjamin .imagenProtagonista { background:url(../images/personajes.png) 0 0 no-repeat;}
+
+.boxFernanda {width:88px; height:90px; position:absolute; top:229px; left:362px;}
+.boxFernanda .imagenProtagonista { background:url(../images/personajes.png)  -153px 0 no-repeat;}
+
+.boxCeleste {width:88px; height:90px; position:absolute; top:111px; left:502px;}
+.boxCeleste .imagenProtagonista { background:url(../images/personajes.png) -77px 0 no-repeat;}
+
+.boxMartin {width:88px; height:90px; position:absolute; top:260px; left:500px;}
+.boxMartin .imagenProtagonista { background:url(../images/personajes.png) -232px 0 no-repeat;}
+
+.boxCamila { width:86px; height:75px; position:absolute; top:43px; left:174px;}
+.boxCamila .secundarioImagen { background:url(../images/personajes.png) 0px -77px no-repeat;}
+
+.boxDolores { width:86px; height:75px; position:absolute; top:164px; left:77px;}
+.boxDolores .secundarioImagen { background:url(../images/personajes.png) -59px -77px no-repeat;}
+
+.boxNico{ width:86px; height:75px; position:absolute; top:293px; left:175px;}
+.boxNico .secundarioImagen { background:url(../images/personajes.png) -118px -77px no-repeat;}
+
+.boxLeonidas { width:86px; height:75px; position:absolute; top:43px; left:659px;}
+.boxLeonidas .secundarioImagen { background:url(../images/personajes.png) -177px -77px no-repeat;}
+
+.boxMiguel { width:86px; height:75px; position:absolute; top:164px; left:783px;}
+.boxMiguel .secundarioImagen { background:url(../images/personajes.png) -236px -77px no-repeat;}
+
+.boxJulieta{ width:86px; height:75px; position:absolute; top:292px; left:659px;}
+.boxJulieta .secundarioImagen { background:url(../images/personajes.png) -295px -77px no-repeat;}
+
+/*CONCURSO*/
+.contentConcurso {float:left; width:660px; position:relative;}
+.contentVotarConcurso { width:660px; text-align:center; height:340px; float:left; position:relative;}
+.contentVotarConcurso .contentPager { bottom:33px;;}
+.contentGanadores {float:left; width:660px; position:relative; height:210px;}
+.concursoTxt { float:left; width:485px;}
+.ganadores { width:660px; text-align:center; height:110px; float:left; margin-top:10PX;}
+.boxGanador { width:70px; text-align:center; height:90px; float:left; background:url(../images/ganador.bg.png) bottom no-repeat; position:relative; padding:5px 6px 0 5px;}
+.boxGanador img { float:left;}
+
+.ganadorNombre { position:absolute; bottom:-5px; left:5px; width:72px; height:21px; outline:none; background:url(../images/ganador.nombre.png) no-repeat; font-family:Arial, Helvetica, sans-serif; color:#FFF; text-align:center; font-size:11px; line-height:17px; }
+.ganadorNombre2 { position:absolute; bottom:-5px; left:5px; width:72px; height:21px; outline:none; background:url(../images/ganador.nombre2.png) no-repeat; font-family:Arial, Helvetica, sans-serif; color:#FFF; text-align:center; font-size:11px; line-height:17px; }
+
+/*MODAL*/
+.black_overlay { background: url(../images/ul.bg.png) ; display: none; position: absolute; left: 0; top:0; width: 100%; height: 200%; z-index: 1001;}
+
+.contentModal {/*display: none;*/  position: fixed; z-index:1002; left: 50%;  top: 50%; margin:-285px 0 0 -340px; width:688px; height: 570px; padding:30px 45px; background: url(../images/modal.bg.png) no-repeat;}
+.cerrarModal { position:absolute; top:0px; right:0px; width:91px; height:50px; cursor:pointer;}
+.modalBloqueThumbs { width:680px; height: 520px; float:left; overflow:hidden; margin-top:25px;}
+.modalThumb { width:130px; height:130px; margin:18px; float:left; border: solid 1px #666;}
+.album { float:left; width:300px; height:130px; margin:18px;}
+.tituloAlbum { float:left; font-family: 'JustRealizeBold'; font-size:21px; color:#000; margin:15px 0 0 10px; width:155px;}
+.fotoAlbum {width:130px; height:130px; float:left;  border: solid 1px #666; overflow:hidden;}
+
+.detalleImagen { width:612px; height:612px; overflow:hidden;position: fixed; z-index:1000; left: 50%;  top: 50%; margin:-306px 0 0 -306px;}
+.detalleImagenBg {position: fixed; z-index:1000; left: 50%;  top: 50%; margin:-320px 0 0 -336px; width:672px; height:641px;  background: url(../images/detalle.Imagen.Bg.png) no-repeat;}
+
+.loader { background: url(../images/preloader.gif) no-repeat; position:fixed; top:50%; left:50%; width:128px; height:128px; margin: -64px 0 0 -64px; z-index:1000;}
