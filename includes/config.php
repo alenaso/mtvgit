@@ -10,8 +10,8 @@
 		
 	} else if ($_SERVER['SERVER_NAME'] == "mtvqa.dev.altodot.com") {
 		// Datos de la apps de Facebook.
-		$application_id = "";
-		$secret = "";
+		$application_id = "256930827758957";
+		$secret = "3ed3847d81d3271ca537902964380530";
 		
 		$URL_SITE = "http://mtvqa.dev.altodot.com/";
 		$RUTA_IMG_ANUARIO = "uploadAnuario/";
