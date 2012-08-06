@@ -8,12 +8,17 @@
 		
 		$URL_SITE = "";
 		
-	} else if ($_SERVER['SERVER_NAME'] == "posibl.qa.altodot.com") {
+	} else if ($_SERVER['SERVER_NAME'] == "http://mtvqa.dev.altodot.com/") {
 		// Datos de la apps de Facebook.
 		$application_id = "";
 		$secret = "";
 		
-		$URL_SITE = "";
+		$URL_SITE = "http://mtvqa.dev.altodot.com/";
+		$RUTA_IMG_ANUARIO = "uploadAnuario/";
+		$RUTA_FISICA_IMG_ANUARIO = "uploadAnuario/";
+		
+		$RUTA_IMG_MAPA = "uploadMapa/";
+		$RUTA_FISICA_IMG_MAPA = "uploadMapa/";
 
 	} else {
 		// Datos de la apps de Facebook.
