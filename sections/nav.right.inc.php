@@ -45,7 +45,19 @@
                             <div class="thumbFriend"><a href="anuario.php?userid=<?php echo $usuarioAmigo->idUsuario?>"><img src="<?php echo $usuarioAmigo->imagen;?>" alt="" class="imagenWidth" /></a></div>
             <?php		}
                     } ?>
-            </div>
+   
+            </div><!--/bloqueThumbs-->
+            <div class="bloqueFalso">
+                    <div class="falsoFriend"></div>
+                    <div class="falsoFriend"></div>
+                    <div class="falsoFriend"></div>
+                    <div class="falsoFriend"></div>
+                    <div class="falsoFriend"></div>
+                    <div class="falsoFriend"></div>
+                    <div class="falsoFriend"></div>
+                    <div class="falsoFriend"></div>
+                    <div class="falsoFriend"></div>
+                </div>
             <div class="cerrarSesion manito"><a href="logout.php"><img src="images/btn.cerrarsesion.png" width="155" height="46" alt="cerrar sesion" /></a></div>
         </div><!--/contentFreinds-->
         <script type="text/javascript">

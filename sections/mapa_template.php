@@ -1,3 +1,7 @@
+<?php
+	$imgMapa = new ImagenMapaRelaciones();
+	$imagenes = $imgMapa->findAllByMapaId($mapa->idMapaRelacion);
+?>
 <div class="contentMapa">
     <div class="boxYo">
         <div class="nombreMapa"><?php echo $userView->nombreCompleto?></div>
@@ -51,4 +55,9 @@
 
     </div> 
 </div><!--/contentMapa-->
-<div class="btnCreaMapa manito"><a href="crea_mapa_relaciones.php"><img src="images/btn.crea.mapa.png" width="184" height="53" alt="Crea tu mapa" /></a></div>
+<div class="btnCreaMapa manito">
+<?php if(isset($_SESSION["usuario"])){ ?>
+    <a href="crea_mapa_relaciones.php"><img src="images/btn.crea.mapa.png" width="184" height="53" alt="Crea tu mapa" /></a></div>
+<?php } else { ?>
+    <a href="#" onclick="fbPermisos();"><img src="images/btn.crea.mapa.png" width="184" height="53" alt="Crea tu mapa" /></a></div>  
+<?php } ?>

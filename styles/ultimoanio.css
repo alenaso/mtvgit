@@ -101,8 +101,11 @@ h4.friendsTitle { float:left;}
 .profileNombre h5 { float:left; text-align:center; }
 .btnsFriends { position:absolute; top:-5px; right:30px; width:107px; height:52px;}
 .btnsFriends img{ float:left;}
-.bloqueThumbs { float:left; width:220px; height:210px; overflow:hidden;}
-.thumbFriend { float:left; width:50px; height:50px; margin: 0 0 10px 10px; background: #CCC;}
+.bloqueThumbs { width:220px; height:210px; overflow:hidden; position: absolute; top:125px; z-index:500;}
+.thumbFriend { float:left; width:50px; height:50px; margin: 0 0 10px 10px; background: #CCC; }
+
+.bloqueFalso { position:absolute; top:125px; z-index:100; background: none; width:220px; height:210px; overflow:hidden;}
+.falsoFriend { float:left; width:50px; height:50px; margin: 0 0 10px 10px; background: #ffffff; z-index:20;}
 
 /*SOCIAL*/
 .boxSocial { position:absolute; top:-20px; left:0; height:30px;}
@@ -256,7 +259,7 @@ option {height: 20px; background:#dddddd; border:0}
 .rel06 p.caracteristica { width: 110px;}
 
 .amigo, .secundario { width:86px; height:75px; position:relative;}
-.amigoImagen, .secundarioImagen { width:57px; height:57px; overflow:hidden; position:absolute; bottom:0; left:50%; margin-left:-28px; z-index:50px; background:#966;}
+.amigoImagen, .secundarioImagen { width:57px; height:57px; overflow:hidden; position:absolute; bottom:0; left:50%; margin-left:-28px; z-index:50px; background:#ffffff;}
 .caracteristica {line-height:25px; font-family: 'JustRealizeBold'; font-size:18px; color:#f05961; margin:15px 0 0 5px;}
 
 .contentSelectFotos { float:left; width:600px; height:147px; margin:10px 0 0 40px; }

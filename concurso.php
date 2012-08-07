@@ -7,7 +7,7 @@
 
 </head>
 
-<body>
+<body style="background: url("../images/body.jpg") no-repeat center top #99E4C9;">
 	<?php include_once("includes/script_facebook.php"); ?>
 <div class="contentGeneral">
 	<div class="contentHeader"><?php include_once("sections/header.inc.php"); ?></div><!--/contentHeader-->

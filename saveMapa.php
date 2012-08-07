@@ -42,7 +42,7 @@
 			for($i=0; $i<count($caracs); $i++){
 				if($caracs[$i] != 0 && $amigos[$i] != ''){
 					$imgMapa = new ImagenMapaRelaciones();
-					$imageData = get_headers("https://graph.facebook.com/".$idsAmigos[$i]."/picture?type=normal",1);
+					$imageData = get_headers("https://graph.facebook.com/".$idsAmigos[$i]."/picture?type=square",1);
 					$url = $imageData["Location"];
 					
 					$result = GetImageFromUrl($url);

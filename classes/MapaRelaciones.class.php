@@ -64,7 +64,10 @@ class MapaRelaciones {
 	}
 	
 	public function getAll($limite){
-		$query = "SELECT * FROM $this->_table_name LIMIT 0,".$limite;
+		$query = "SELECT * FROM $this->_table_name";
+		if($limite != -1){
+			$query .= " LIMIT 0,".$limite;
+		}
 		return $this->findAll($query);
 	}
 	

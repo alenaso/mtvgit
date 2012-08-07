@@ -27,7 +27,7 @@
 
 </head>
 
-<body>
+<body style="background: url("../images/body.jpg") no-repeat center top #99E4C9;">
 	<?php include_once("includes/script_facebook.php"); ?>
 <div class="contentGeneral">
 	<div class="contentHeader"><?php include_once("sections/header.inc.php"); ?></div><!--/contentHeader-->
@@ -100,7 +100,7 @@
                                     } ?>
                             </select>
                       <div class="selectNombre"><input id="tagsAmigo1" name="tagsAmigo1" class="inputEtiqueta" /></div>
-                            <div class="fotoAmigo"><img id="fotoAmigo1" src="<?php echo $imgPixel?>" /></div>
+                            <div class="fotoAmigo"><img id="fotoAmigo1" src="<?php echo $imgPixel?>" width="75" height="75" /></div>
                         </div>
                         <div class="selectAmigo">
                             <select id="caracteristica2" name="caracteristica2" class="selectCaracteristica" />
@@ -109,7 +109,7 @@
                                     } ?>
                             </select>
                       <div class="selectNombre"><input id="tagsAmigo2" name="tagsAmigo2" class="inputEtiqueta" /></div>
-                            <div class="fotoAmigo"><img id="fotoAmigo2" src="<?php echo $imgPixel?>" /></div>
+                            <div class="fotoAmigo"><img id="fotoAmigo2" src="<?php echo $imgPixel?>" width="75" height="75" /></div>
                         </div>
                         <div class="selectAmigo">
                             <select id="caracteristica3" name="caracteristica3" class="selectCaracteristica" />
@@ -118,7 +118,7 @@
                                     } ?>
                             </select>
                       <div class="selectNombre"><input id="tagsAmigo3" name="tagsAmigo3" class="inputEtiqueta" /></div>
-                            <div class="fotoAmigo"><img id="fotoAmigo3" src="<?php echo $imgPixel?>" /></div>
+                            <div class="fotoAmigo"><img id="fotoAmigo3" src="<?php echo $imgPixel?>" width="75" height="75" /></div>
                         </div>
                         <div class="selectAmigo">
                             <select id="caracteristica4" name="caracteristica4" class="selectCaracteristica" />
@@ -127,7 +127,7 @@
                                     } ?>
                             </select>
                       <div class="selectNombre"><input id="tagsAmigo4" name="tagsAmigo4" class="inputEtiqueta" /></div>
-                            <div class="fotoAmigo"><img id="fotoAmigo4" src="<?php echo $imgPixel?>" /></div>
+                            <div class="fotoAmigo"><img id="fotoAmigo4" src="<?php echo $imgPixel?>" width="75" height="75" /></div>
                         </div>
                         <div class="selectAmigo">
                             <select id="caracteristica5" name="caracteristica5" class="selectCaracteristica" />
@@ -136,7 +136,7 @@
                                     } ?>
                             </select>
                       <div class="selectNombre"><input id="tagsAmigo5" name="tagsAmigo5" class="inputEtiqueta" /></div>
-                            <div class="fotoAmigo"><img id="fotoAmigo5" src="<?php echo $imgPixel?>" /></div>
+                            <div class="fotoAmigo"><img id="fotoAmigo5" src="<?php echo $imgPixel?>" width="75" height="75"/></div>
                         </div>
                         <div class="selectAmigo">
                             <select id="caracteristica6" name="caracteristica6" class="selectCaracteristica" />
@@ -145,7 +145,7 @@
                                     } ?>
                             </select>
                       <div class="selectNombre"><input id="tagsAmigo6" name="tagsAmigo6" class="inputEtiqueta" /></div>
-                            <div class="fotoAmigo"><img id="fotoAmigo6" src="<?php echo $imgPixel?>" /></div>
+                            <div class="fotoAmigo"><img id="fotoAmigo6" src="<?php echo $imgPixel?>" width="75" height="75" /></div>
                         </div>
                    	</div><!--/contentSelectFotos-->
                    	<div class="bloquePostear">
