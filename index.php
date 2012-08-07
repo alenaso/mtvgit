@@ -33,7 +33,6 @@
 	
 	if(isset($_GET["aid"]) && $anuario->findById($_GET["aid"]) && $anuario->publicado!=0){
 		$i=0;
-		print_r($anuario);
 		foreach($listaAnuarios as $an){
 			if($an->idAnuario == $anuario->idAnuario){ break; }
 				$i++;
